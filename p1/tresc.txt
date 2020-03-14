@@ -1,0 +1,24 @@
+Zadanie: tabela pañstw
+
+Przedstawiæ w tabeli JTable pañstwa z pliku.
+
+Plik powinien mieæ nastêpuj¹c¹ postaæ:
+
+nazwa_kol1<TAB>nazwa_kol2<TAB> ....
+nazwa_pañstwa1<TAB>stolica1<TAB> ludnoœæ1 ....
+
+Na przyk³ad:
+Name    Capital    Population
+Republic of Poland    Warsaw    38500
+Chech Republic    Prague    10500 
+Kingdom of Spain    Madrid    46599
+Nalezy zwróciæ uwagê, ¿e pola s¹ rozdzielane przez znak tabulacji, liczba ludnoœci podawana jest w tysi¹cach. Plik powinien znajdowaæ siê w katalogu data projektu i mieæ nazwê countries.txt
+
+Dodatkowe wymagania:
+
+kolumny tabeli maj¹ mieæ nazwy z pierwszego wiersza pliku
+dane o ludnoœci maj¹ byæ traktowane jako liczby
+i pokazywane w tabeli jak liczby
+pokazaæ w tabeli flagi pañstw (wymaga modyfikacji pliku pañstw i dodanie kolumny, pokazuj¹cej flagê jako grafikê)
+zapewniæ pokazywanie wszystkich pañstw œwiata (jakich narzêdzi u¿yjemy, ¿eby to ³atwo zrobiæ)
+wyró¿niæ komórki z liczb¹ ludnoœci dla pañstw z ludnoœci¹ > 20 mln czerwonym kolorem pisma
