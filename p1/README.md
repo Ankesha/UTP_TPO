@@ -10,8 +10,6 @@ Na przykład:
 
 Name    Capital    Population
 Republic of Poland    Warsaw    38500
-Chech Republic    Prague    10500 
-Kingdom of Spain    Madrid    46599
 
 Nalezy zwrócić uwagę, że pola są rozdzielane przez znak tabulacji, liczba ludności podawana jest w tysiącach. Plik powinien znajdować się w katalogu data projektu i mieć nazwę countries.txt
 
