@@ -54,4 +54,38 @@ Następujący (niemodyfikowalny poza miejsami oznaczonymi /*<--*/) program:
     }
 ma wyprowadzić na konsolę napisy:
 - [sample.txt](sample.txt)
-Postać wydruku jest obowiązkowa.
+Postać wydruku jest obowiązkowa
+
+# Zadanie: ceny przelotów - lambda2
+
+Lista dest zawiera informacje o cenach przelotów w postaci napisów:
+port_wylotu port_przylotu cena_w_EUR
+
+Należy utworzyć listę wynikowš, której elementy będš opisywać ceny przelotów do poszczególnych miejsc (tylko) z Warszawy w PLN i wypisać na konsoli jej kolejne elementy, używajšc następujšcego programu:
+
+/*<-- niezbędne importy */
+
+public class Main {
+
+  public static void main(String[] args) {
+    // Lista destynacji: port_wylotu port_przylotu cena_EUR 
+    List<String> dest = Arrays.asList(
+      "bleble bleble 2000",
+      "WAW HAV 1200",
+      "xxx yyy 789",
+      "WAW DPS 2000",
+      "WAW HKT 1000"
+    );
+    double ratePLNvsEUR = 4.30;
+    List<String> result = 
+    /*<-- tu należy dopisać fragment
+     * przy czym nie wolno używać żadnych własnych klas, jak np. ListCreator
+     * ani też żadnych własnych interfejsów
+     */
+
+    for (String r : result) System.out.println(r);
+  }
+}
+
+Plik Main.java wolno modyfikować tylko w miejscach oznaczonych /*<--  */, a program ma wyprowadzić na konsolę:
+- [sample.txt](sample.txt)
