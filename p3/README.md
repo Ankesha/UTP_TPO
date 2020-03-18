@@ -61,9 +61,7 @@ Postać wydruku jest obowiązkowa
 Lista dest zawiera informacje o cenach przelotów w postaci napisów:
 port_wylotu port_przylotu cena_w_EUR
 
-Należy utworzyć listę wynikowš, której elementy będš opisywać ceny przelotów do poszczególnych miejsc (tylko) z Warszawy w PLN i wypisać na konsoli jej kolejne elementy, używajšc następujšcego programu:
-
-/*<-- niezbędne importy */
+Należy utworzyć listę wynikowš, której elementy będš opisywać ceny przelotów do poszczególnych miejsc (tylko) z Warszawy w PLN i wypisać na konsoli jej kolejne elementy, używajšc następujacego programu:
 
 public class Main {
 
