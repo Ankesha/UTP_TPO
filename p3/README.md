@@ -20,7 +20,7 @@ Uwagi:
 2. klasa ListCreator i jej metody powinny działać dla list (źródłowej i docelowej) elementów dowolnego typu.
 
 Następujący (niemodyfikowalny poza miejsami oznaczonymi /*<--*/) program:
-
+```
     import java.util.*;
 
     public class Main {
@@ -52,8 +52,13 @@ Następujący (niemodyfikowalny poza miejsami oznaczonymi /*<--*/) program:
         for (String r : result) System.out.println(r);
       }
     }
+```
 ma wyprowadzić na konsolę napisy:
-- [sample.txt](sample.txt)
+```
+to HAV - price in PLN:	5160
+to DPS - price in PLN:	8600
+to HKT - price in PLN:	4300
+```
 Postać wydruku jest obowiązkowa
 
 # Zadanie: ceny przelotów - lambda2
@@ -62,7 +67,7 @@ Lista dest zawiera informacje o cenach przelotów w postaci napisów:
 port_wylotu port_przylotu cena_w_EUR
 
 Należy utworzyć listę wynikowš, której elementy będš opisywać ceny przelotów do poszczególnych miejsc (tylko) z Warszawy w PLN i wypisać na konsoli jej kolejne elementy, używajšc następujacego programu:
-
+```
 public class Main {
 
   public static void main(String[] args) {
@@ -84,6 +89,10 @@ public class Main {
     for (String r : result) System.out.println(r);
   }
 }
-
+```
 Plik Main.java wolno modyfikować tylko w miejscach oznaczonych /*<--  */, a program ma wyprowadzić na konsolę:
-- [sample.txt](sample.txt)
+```
+to HAV - price in PLN:	5160
+to DPS - price in PLN:	8600
+to HKT - price in PLN:	4300
+```
