@@ -90,7 +90,7 @@ Uwaga: w programie nie wolno definiować żadnych własnych interfejsów (za wyj
 4. I wobec tego musimy pisać w definicji flines try { } catch { }
 5. Jak spowodować, aby nie było to konieczne i w przypadku powstania wyjątku IOException zadziałała klauzula throws metody main ?
 
-# Zadanie: Lambda-wyrażenia dla niefunkcyjnych interfejsów ?
+# Zadanie: Lambda-wyrażenia dla niefunkcyjnych interfejsów
 Spowodować, by w następującycm dalej programie,  po naciśnięciu klawisza myszki na przycisku b
 na konsoli zostało wypisane "ok". Pliku Main.java nie wolno modyfikować.
 ```
@@ -211,10 +211,13 @@ Klasę Maybe przetestować na przykładzie następującej  klasy Main::
 ```
 
 # Zadanie: dodatkowe operacje na listach
-```
+
 Stworzyć klasę XList, dostarczającą dodatkowych możliwości tworzenia list i operowania na nich.
+
 W klasie powinny znaleźć się odpowiednie konstruktory oraz statyczne metody of, umożliwiające tworzenie obiektów XList z innych kolekcji, tablic oraz argumentów podawanych przez przecinki.
+
 Dodatkowo pomocnicze metody do tworzenia xlist z napisów:
+```
 ofChars(napis) - zwraca x-listę znaków napisu,
 ofTokens(napis, [ sep ]) - zwraca x-listę symboli napisu, rozdzielonych separatorami z sep (jesśi brak - to białymi znakami).
 Oprócz tego dostarczyć metod:
