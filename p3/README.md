@@ -53,8 +53,5 @@ Następujący (niemodyfikowalny poza miejsami oznaczonymi /*<--*/) program:
       }
     }
 ma wyprowadzić na konsolę napisy:
-
-to HAV - price in PLN:	5160
-to DPS - price in PLN:	8600
-to HKT - price in PLN:	4300
+- [sample.txt](sample.txt)
 Postać wydruku jest obowiązkowa.
