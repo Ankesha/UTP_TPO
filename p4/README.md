@@ -62,3 +62,31 @@ Cars:- Fiat: 15, Ford: 20- Opel: 8, Mitsubishi: 10
 600
 ```
 Uwaga: w klasie InputConverter musi występować tylko jedna metoda o nazwie convertBy (czyli w tym zadaniu nie dopuszczamy przeciążania metody convertBy).
+
+# Zadanie: Przekazywanie wyjątków kontrolowanych z lambda-wyrażeń do obsługi w bloku otaczającym lambda.
+
+W kontekście:
+```
+  public static void main(String[] args) throws IOException {
+    /*<--
+     *  definicja operacji w postaci lambda-wyrażeń :
+     *  - flines - zwraca listę wierszy z pliku tekstowego
+     *  - join - łączy napisy z listy (zwraca napis połączonych ze sobą elementów listy napisów)
+     *  - collectInts - zwraca listę liczb całkowitych zawartych w napisie
+     *  - sum - zwraca sumę elmentów listy liczb całkowitych
+     */
+
+    String fname = System.getProperty("user.home") + "/LamComFile.txt";
+    InputConverter<String> fileConv = new InputConverter<>(fname);
+    List<String> lines = fileConv.convertBy(flines);
+   // ....
+}
+```
+Uwaga: w programie nie wolno definiować żadnych własnych interfejsów (za wyjątkiem być może rozszerzeń interfejsów z pakietu java.util.function), a więc operacje flines, join, itp. muszą opierać się na gotowych interfejsach funkcyjnych z pakietu java.util.function lub ich rozszerzeniach.
+
+Operacja flines zawiera odczyt pliku, zatem może powstać wyjątek IOException.
+Wymagane jest, aby tę operację zdefiniowac jako lambda-wyrażenie.
+Ale z lambda wyrażeń, opierających się na interfejsach funkcyjnych z pakietu java.util.function, nie możemy przekazać obsługi wyjatków do otaczającego bloku.
+I wobec tego musimy pisać w definicji flines try { } catch { }
+Jak spowodować, aby nie było to konieczne i w przypadku powstania wyjątku IOException
+zadziałała klauzula throws metody main ?
