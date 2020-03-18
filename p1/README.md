@@ -5,9 +5,7 @@ Plik powinien mieć następującą postać:
  - [format.txt](format.txt)
 
 Na przykład:
-
-Name    Capital    Population
-Republic of Poland    Warsaw    38500
+- [sample.txt](sample.txt)
 
 Nalezy zwrócić uwagę, że pola są rozdzielane przez znak tabulacji, liczba ludności podawana jest w tysiącach. Plik powinien znajdować się w katalogu data projektu i mieć nazwę countries.txt
 
