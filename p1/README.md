@@ -2,10 +2,18 @@
 Przedstawić w tabeli JTable państwa z pliku.
 
 Plik powinien mieć następującą postać:
- - [format.txt](format.txt)
+```
+nazwa_kol1<TAB>nazwa_kol2<TAB> ....
+nazwa_państwa1<TAB>stolica1<TAB> ludność1 ....
+```
 
 Na przykład:
-- [sample.txt](sample.txt)
+```
+Name    Capital    Population
+Republic of Poland    Warsaw    38500
+Chech Republic    Prague    10500 
+Kingdom of Spain    Madrid    46599
+```
 
 Nalezy zwrócić uwagę, że pola są rozdzielane przez znak tabulacji, liczba ludności podawana jest w tysiącach. Plik powinien znajdować się w katalogu data projektu i mieć nazwę countries.txt
 
