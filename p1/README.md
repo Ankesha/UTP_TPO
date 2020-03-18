@@ -2,9 +2,7 @@
 Przedstawić w tabeli JTable państwa z pliku.
 
 Plik powinien mieć następującą postać:
-
-nazwa_kol1<TAB>nazwa_kol2<TAB> ....
-nazwa_państwa1<TAB>stolica1<TAB> ludność1 ....
+ - [format.txt](format.txt)
 
 Na przykład:
 
