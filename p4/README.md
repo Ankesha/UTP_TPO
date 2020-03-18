@@ -83,10 +83,11 @@ W kontekście:
 }
 ```
 Uwaga: w programie nie wolno definiować żadnych własnych interfejsów (za wyjątkiem być może rozszerzeń interfejsów z pakietu java.util.function), a więc operacje flines, join, itp. muszą opierać się na gotowych interfejsach funkcyjnych z pakietu java.util.function lub ich rozszerzeniach.
-
+```
 Operacja flines zawiera odczyt pliku, zatem może powstać wyjątek IOException.
 Wymagane jest, aby tę operację zdefiniowac jako lambda-wyrażenie.
 Ale z lambda wyrażeń, opierających się na interfejsach funkcyjnych z pakietu java.util.function, nie możemy przekazać obsługi wyjatków do otaczającego bloku.
 I wobec tego musimy pisać w definicji flines try { } catch { }
 Jak spowodować, aby nie było to konieczne i w przypadku powstania wyjątku IOException
 zadziałała klauzula throws metody main ?
+```
