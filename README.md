@@ -1,10 +1,6 @@
-# UTP
-PJWSTK : Universal Programming Techniques
+# PJWSTK: UTP & TPO
+PJWSTK : Projects from "Universal Programmin Techniques" and "Distributed Programming Technologies" courses.
 
-#  Table of Contents:
-
-1. [JTable: "tablica państw"](p1)
-2. [Generics](p2)
-3. [Lambda expressions: "ceny przelotow"](p3)
-4. [wyjatki kontrolowane lambda, niefunkcjyjne interfejsy lambda, klasa Maybe, XList](p4)
-5. ["allwords", "customers", "programmers"](p5)
+#  Courses:
+1. [UTP - Universal Programming Techniques PL](UTP - Universal Programming techniques)
+2. [TPO - Distributed Programming Technologies PL](TPO - Distributed Programming techniques)
