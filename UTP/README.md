@@ -7,5 +7,4 @@ PJWSTK : Universal Programming Techniques
 3. [Lambda expressions: "ceny przelotow"](p3)
 4. [wyjatki kontrolowane lambda, niefunkcjyjne interfejsy lambda, klasa Maybe, XList](p4)
 5. ["allwords", "customers", "programmers"](p5)
-
 6. [English course](English)
