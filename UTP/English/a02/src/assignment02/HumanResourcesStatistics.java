@@ -1,11 +1,15 @@
-package s18614;
+/**
+ * @Author: Patryk Kamiński
+ */
+
+package assignment02;
 
 
-import s18614.employee.Employee;
-import s18614.employee.Manager;
-import s18614.employee.Trainee;
-import s18614.employee.Worker;
-import s18614.payroll.PayrollEntry;
+import assignment02.employee.Employee;
+import assignment02.employee.Manager;
+import assignment02.employee.Trainee;
+import assignment02.employee.Worker;
+import assignment02.payroll.PayrollEntry;
 
 import java.math.BigDecimal;
 import java.util.Comparator;

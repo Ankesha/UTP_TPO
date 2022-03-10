@@ -1,8 +1,11 @@
-package s18614;
+/**
+ * @Author: Patryk Kamiński
+ */
+
+package assignment04;
 
 
 import java.util.Comparator;
-import s18614.Person;
 
 public final class BirthdateComparator implements Comparator<Person> {
 

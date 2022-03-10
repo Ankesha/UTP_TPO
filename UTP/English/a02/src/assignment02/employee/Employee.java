@@ -1,4 +1,9 @@
-package s18614.employee;
+/**
+ * @Author: Patryk Kamiński
+ */
+
+package assignment02.employee;
+
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

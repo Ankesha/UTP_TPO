@@ -1,8 +1,12 @@
-import s18614.HumanResourcesStatistics;
-import s18614.employee.Employee;
-import s18614.employee.Manager;
-import s18614.employee.Trainee;
-import s18614.employee.Worker;
+/**
+ * @Author: Patryk Kamiński
+ */
+
+import assignment02.HumanResourcesStatistics;
+import assignment02.employee.Employee;
+import assignment02.employee.Manager;
+import assignment02.employee.Trainee;
+import assignment02.employee.Worker;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

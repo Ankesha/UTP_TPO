@@ -1,8 +1,11 @@
-package s18614.payroll;
+/**
+ * @Author: Patryk Kamiński
+ */
+
+package assignment02.payroll;
 
 
-
-import s18614.employee.Employee;
+import assignment02.employee.Employee;
 
 import java.math.BigDecimal;
 

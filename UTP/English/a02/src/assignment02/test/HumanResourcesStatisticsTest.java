@@ -1,4 +1,4 @@
-package s18614.test;
+package assignment02.test;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -9,12 +9,12 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import s18614.HumanResourcesStatistics;
-import s18614.employee.Employee;
-import s18614.employee.Manager;
-import s18614.employee.Trainee;
-import s18614.employee.Worker;
-import s18614.payroll.PayrollEntry;
+import assignment02.HumanResourcesStatistics;
+import assignment02.employee.Employee;
+import assignment02.employee.Manager;
+import assignment02.employee.Trainee;
+import assignment02.employee.Worker;
+import assignment02.payroll.PayrollEntry;
 
 public class HumanResourcesStatisticsTest {
 	

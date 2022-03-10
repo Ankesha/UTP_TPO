@@ -1,3 +1,7 @@
+/**
+ * @Author: Patryk Kamiński
+ */
+
 package assignment01;
 
 public final class Person implements IAggregable<Person, Integer>, IDeeplyCloneable<Person> {

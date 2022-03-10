@@ -1,4 +1,8 @@
-package s18614;
+/**
+ * @Author: Patryk Kamiński
+ */
+
+package assignment04;
 
 
 import java.util.Date;

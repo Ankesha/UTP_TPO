@@ -1,3 +1,7 @@
+/**
+ * @Author: Patryk Kamiński
+ */
+
 package assignment01;
 
 import java.util.List;
